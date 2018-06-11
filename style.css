@@ -1,0 +1,107 @@
+.toolBox {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+/* #ipic{
+    width: 100px;
+    height: 100px;
+} */
+#ipic{
+    font-size: 10rem;
+    color: white;
+
+}
+.title{
+    font-size: 4rem;
+    display: inline;
+    color: white;
+    text-align: center;
+    
+
+}
+
+#links{
+    float: right;
+    display: inline;
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+    
+}
+.num1{
+    background-color: #100D1C;
+}
+.num2{
+    background-color: #322D43;
+}
+.num3{
+    background-color: #38506B;
+}
+.num4{
+    background-color: #39284D;
+}
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+  
+    max-width: 960px; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+}
+p,h1,h2,h3,h4{
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-align: center;
+}
+span{
+    text-align: center;
+    color: #F88477;
+    
+}
+ul {
+    float: right;
+}
+li{
+    float: left;
+}
+ul li {
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #cccccc;
+}
+ul li:last-of-type {
+    border-right: none;
+}
+form input {
+    display:block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+form textarea {
+    width: 100%;
+    margin: 10px 0;
+}
+
+form input[type=submit] {
+    width: 100px;
+}
+label{
+    color: white;
+}
+.container{
+    text-align: center;
+    /* padding-bottom: 50px; */
+}
+#lefttext{
+    text-align: left; 
+}
+.pad{
+    padding-top: 20px;
+}
